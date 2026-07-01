@@ -1,0 +1,131 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam2\steamapps\common\Source SDK Base 2013 Singleplayer\ep2\materials
+Loading c:\users\dan\downloads\xbox asset ripping\xbox half life 2 bsp and vmf files\vmf\d3_breen_01b_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam2\steamapps\common\source sdk base 2013 singleplayer\ep2\gameinfo.txt
+Patching WVT material: maps/d3_breen_01b_d/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 906 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\dan\downloads\xbox asset ripping\xbox half life 2 bsp and vmf files\vmf\d3_breen_01b_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day03_06*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (620042 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6416 texinfos to 2947
+Reduced 342 texdatas to 298 (17898 bytes to 16180)
+Writing c:\users\dan\downloads\xbox asset ripping\xbox half life 2 bsp and vmf files\vmf\d3_breen_01b_d.bsp
+2 seconds elapsed
+
+
+
+12 threads
+reading c:\users\dan\downloads\xbox asset ripping\xbox half life 2 bsp and vmf files\vmf\d3_breen_01b_d.bsp
+reading c:\users\dan\downloads\xbox asset ripping\xbox half life 2 bsp and vmf files\vmf\d3_breen_01b_d.prt
+ 647 portalclusters
+1743 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 8112 visible clusters (4.23%)
+Total clusters visible: 191841
+Average clusters visible: 296
+Building PAS...
+Average clusters audible: 380
+visdatasize:95604  compressed from 113872
+writing c:\users\dan\downloads\xbox asset ripping\xbox half life 2 bsp and vmf files\vmf\d3_breen_01b_d.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\dan\downloads\xbox asset ripping\xbox half life 2 bsp and vmf files\vmf\d3_breen_01b_d.bsp
+7503 faces
+19402370 square feet [2793941248.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7503 patches before subdivision
+62757 patches after subdivision
+228 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5367032, max 1098
+transfer lists:  40.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(44341, 83667, 103674)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1381, 2769, 3664)
+Build Patch/Sample Hash Table(s).....Done<0.0147 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 144 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 137/1024         6576/49152    (13.4%) 
+brushes               1570/8192        18840/98304    (19.2%) 
+brushsides           14015/65536      112120/524288   (21.4%) 
+planes               13506/65536      270120/1310720  (20.6%) 
+vertexes             11338/65536      136056/786432   (17.3%) 
+nodes                 6160/65536      197120/2097152  ( 9.4%) 
+texinfos              2947/12288      212184/884736   (24.0%) 
+texdata                298/2048         9536/65536    (14.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7503/65536      420168/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4301/65536      240856/3670016  ( 6.6%) 
+leaves                6298/65536      201536/2097152  ( 9.6%) 
+leaffaces             9342/65536       18684/131072   (14.3%) 
+leafbrushes           5516/65536       11032/131072   ( 8.4%) 
+areas                    8/256            64/2048     ( 3.1%) 
+surfedges            51351/512000     205404/2048000  (10.0%) 
+edges                30399/256000     121596/1024000  (11.9%) 
+LDR worldlights        226/8192        19888/720896   ( 2.8%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            489/32768        4890/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9084/65536       18168/131072   (13.9%) 
+cubemapsamples          34/1024          544/16384    ( 3.3%) 
+overlays                18/512          6336/180224   ( 3.5%) 
+LDR lightdata         [variable]     2334948/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       95604/16777216 ( 0.6%) 
+entdata               [variable]      303219/393216   (77.1%) 
+LDR ambient table     6298/65536       25192/262144   ( 9.6%) 
+HDR ambient table     6298/65536       25192/262144   ( 9.6%) 
+LDR leaf ambient     24469/65536      685132/1835008  (37.3%) 
+HDR leaf ambient      6298/65536      176344/1835008  ( 9.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4978     ( 0.0%) 
+pakfile               [variable]     3135487/0        ( 0.0%) 
+physics               [variable]      620042/4194304  (14.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 19043
+Writing c:\users\dan\downloads\xbox asset ripping\xbox half life 2 bsp and vmf files\vmf\d3_breen_01b_d.bsp
+21 seconds elapsed
